@@ -23,7 +23,7 @@
 		$(document).ready(function() {
 		
 			// Toggle the dropdown menu's
-			$(".dropdown .button, .dropdown button").click(function () {
+			$(".dropdown .button, .dropdown button").hover(function () {
 				if (!$(this).find('span.toggle').hasClass('active')) {
 					$('.dropdown-slider').slideUp();
 					$('span.toggle').removeClass('active');
