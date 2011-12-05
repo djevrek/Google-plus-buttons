@@ -236,6 +236,31 @@ button.red:hover,
 	background: -ms-linear-gradient(top, #DC4A38, #C53727);
 	background: -o-linear-gradient(top, #DC4A38, #C53727);
 }
+button.orange, 
+.button.orange {
+	border: 1px solid #FB8F3D !important;
+	
+	background: #FDA352;
+	background: -webkit-linear-gradient(top, #FDA352, #FB8F3D);
+	background: -moz-linear-gradient(top, #FDA352, #FB8F3D);
+	background: -ms-linear-gradient(top, #FDA352, #FB8F3D);
+	background: -o-linear-gradient(top, #FDA352, #FB8F3D);
+	
+	-webkit-transition: border .20s;
+	-moz-transition: border .20s;
+	-o-transition: border .20s;
+	transition: border .20s;
+}
+button.orange:hover, 
+.button.orange:hover {
+	border: 1px solid #EB5200 !important;
+	
+	background: #FD934D;
+	background: -webkit-linear-gradient(top, #FD934D, #F9760B);
+	background: -moz-linear-gradient(top, #FD934D, #F9760B);
+	background: -ms-linear-gradient(top, #FD934D, #F9760B);
+	background: -o-linear-gradient(top, #FD934D, #F9760B);
+}
 
 button.action:hover, 
 .button.action:hover {
